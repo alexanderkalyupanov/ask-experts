@@ -362,3 +362,58 @@ ul {
   font-style: 25px;
   font-weight: bold;
 }
+
+
+.projects {
+  background:linear-gradient(rgba(24, 24, 24, 0.97), rgba(24, 24, 24, 0.97)), url(img/projectbg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  padding: 150px 0px;
+}
+
+.project__wrap-1 {
+  display: flex;
+}
+
+.project__wrap-2 {
+  margin-top: 50px;
+  display: flex;
+}
+
+.wrap__2 {
+  margin-right: 50px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mr50 {
+  margin-right: 40px;
+}
+
+.project__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label_green {
+  background-color: var(--color-green);
+  color: #fff;
+}
+
+.projects__title {
+  margin-top: 8px;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 46px;
+  font-family: "Cabin", sans-serif !important; 
+}
+
+.project__btn {
+  margin-top: 23px;
+  background-color: rgba(255, 204, 74, 1);
+  width: 168px;
+  height: 61px;
+  text-align: center;
+}
