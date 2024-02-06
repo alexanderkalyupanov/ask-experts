@@ -400,6 +400,7 @@ ul {
 .label_green {
   background-color: var(--color-green);
   color: #fff;
+  width: 127px;
 }
 
 .projects__title {
@@ -416,4 +417,40 @@ ul {
   width: 168px;
   height: 61px;
   text-align: center;
+}
+
+.steps {
+  padding: 150px 0;
+}
+.steps__wrapper {
+  display: flex;
+}
+
+.steps__info--left {
+  display: flex;
+  flex-direction: column;
+  width: 488px; 
+}
+
+.steps__title {
+  font-size: 45px;
+  font-family: "Cabin", sans-serif !important; 
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.stepts__text {
+  font-size: 16px;
+  line-height: 23.6px;
+  margin-bottom: 40px;
+}
+
+.line {
+  border-bottom: 2px solid  var(--color-gray);
+  width: 460px;
+  margin-bottom: 28px;
+}
+
+.wrap__info {
+  display: flex;
 }
